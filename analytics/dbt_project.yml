@@ -1,0 +1,16 @@
+name: portfolio_diligence
+version: "1.0"
+config-version: 2
+
+profile: portfolio_diligence
+
+model-paths: ["models"]
+
+models:
+  portfolio_diligence:
+    staging:
+      +schema: analytics
+      +materialized: view
+    marts:
+      +schema: analytics
+      +materialized: table

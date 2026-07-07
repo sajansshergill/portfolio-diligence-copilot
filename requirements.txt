@@ -1,0 +1,15 @@
+anthropic
+asyncpg
+dbt-postgres
+fastapi
+greenlet
+langgraph
+mcp
+psycopg2-binary
+pydantic-settings
+pytest
+python-multipart
+sqlalchemy
+streamlit
+temporalio
+uvicorn[standard]

@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_companies
+    columns:
+      - name: company_id
+        tests:
+          - not_null
+          - unique
+  - name: stg_findings
+    columns:
+      - name: finding_id
+        tests:
+          - not_null
+          - unique
+  - name: portfolio_kpis
+    columns:
+      - name: company_id
+        tests:
+          - not_null
+          - unique
+  - name: findings_by_severity
+    columns:
+      - name: company_id
+        tests:
+          - not_null
